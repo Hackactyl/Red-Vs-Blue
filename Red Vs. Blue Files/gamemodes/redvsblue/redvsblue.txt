@@ -1,0 +1,11 @@
+"redvsblue"
+{
+	"base"		"sandbox"
+	"title"		"Red Vs Blue"
+	"maps"		"^rvb_"
+	"menusystem"	"1"
+	"settings"
+	{
+		//TODO: put shit here
+	}
+}

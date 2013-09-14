@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+        "name"              "Chat Tags"
+        "version"           "1.0"
+        "up_date"           "1"
+        "author_name"       "Mr. Apple"
+        "author_email"      "webmaster@f4emgaing.com"
+        "info"              "Chat Tags"
+        "override"          "0"
+}
