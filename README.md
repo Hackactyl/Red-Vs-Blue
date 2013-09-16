@@ -7,16 +7,16 @@ The Very Basic TDM files are from a working gamemode that is a basic TDM (obviou
 ===========
 
 Current Issues that need to be resolved are as follows:
--Crosshairs for guns don't work
--Team Switchers don't work (Broken concommand, use functions instead)
--Player Models are not being changed
+//Crosshairs for guns don't work
+//Team Switchers don't work (Broken concommand, use functions instead)
+//Player Models are not being changed
 
 ===========
 
 Checklist:
-Guns: Somewhat
-Players: Somewhat
-Teams: X
-Custom HUD: X
-Frag Grenade: X
-Halo-esque Physics: Somewhat
+//Guns: Somewhat
+//Players: Somewhat
+//Teams: X
+//Custom HUD: X
+//Frag Grenade: X
+//Halo-esque Physics: Somewhat
