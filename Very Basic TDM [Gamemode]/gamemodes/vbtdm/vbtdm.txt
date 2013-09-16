@@ -1,0 +1,15 @@
+"vbtdm"
+{
+	"base"		"base"
+	"title"		"VBTDM 1.2.1"
+	"version"	"1.2.1"
+	"author_name"	"Mr. Apple, Aegis, and Shoop Da Whoop"
+	"author_email"	"webmaster@f4egaming.com"
+	"author_url"	"www.f4egaming.com"
+	"workshopid"	"116777393"
+	"menusystem"	"1"
+	"maps"		"^vb_"
+	"settings"
+	{
+	}
+}

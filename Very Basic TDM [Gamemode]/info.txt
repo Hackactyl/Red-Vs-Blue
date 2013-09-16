@@ -1,0 +1,178 @@
+"AddonInfo"
+{
+	"name" "Very Basic TDM [Gamemode]"
+	"author_name" "author"
+	"info" "This gamemode is from a skelton gamemode, and is now a very basic Team Deathmatch. I will perodically update this. This addon/gamemode isn't really meant to be judge by everyone, I'm only using workshop as a SVN type of thing.
+
+**
+The SVN Link for this gamemode can be found [url=http://vbtdm.googlecode.com/svn/trunk/vbtdm]-> HERE <-[/url]
+**
+NEW OFFICIAL GROUP FOR THIS GAMODE:
+[url=http://steamcommunity.com/groups/VBTDM]-> Click Here and Join the Fun < -[/url]
+**
+
+
+[b]Commands:[/b]
+Type !teams or press F2 to begin the magic of the gamemode!
+!setspawn TEAM_NAME TEAM_SPAWN_ID
+!removespawn TEAM_NAME TEAM_SPAWN_ID
+!reloadspawn
+
+
+[b]Changelogs:[/b]
+[list]
+[*]Changelog: 1.0.0 Alpha - 1/30/12
+- Created the Gamemode "Very Basic Team Deathmatch".
+- Added !teams so you can pick a team to be on.
+
+[*]Changelog: 1.0.1 Alpha - 1/30/12
+- Added Utime to the gamemode, and edited to fit to the gamemodes liking
+- Updated a few lines so the script runs "better"
+
+[*]Changelog: 1.0.2 Alpha - 1/30/12
+- Updated the .timer for utime so it worked more smoothly
+- Added Very Basic Team Deathmatch in the single player gamemode chooser
+- Added a picture for the Very Basic Team Deathmatch
+- Added chat prints so if someone that doesn't know what do, ends up reading the chat screen. They will know they have to type !teams for anything to happen.
+
+[*]Changelog: 1.0.3 Alpha - 1/31/12
+- Updated it so when you change teams, it doesn't kill you.
+- Updated the name from Very Basic Deathmatch to Very Basic Team Deathmatch
+- Updated it so when you switch to Team: Police you get Civil Protection model.
+- Updated it so when you switch to Team: Criminal you get Leet model. (model from CS:S. You don't need CS:S to play this gamemode though)
+- Updated it so when anyone first joins the server, it sets your model to a Civialian model
+- Updated it so when anyone first joins the server, your automatically godded until you switch teams using !teams
+- Updated the derma to be able to move with your cursor
+
+[*]Changelog: 1.0.4 Alpha 1/1/13
+- Updated the menu of for !teams
+- Removed the ability to move the menu with your cursor.
+- Added tabs
+- Added To-Do-List tab so people who don't read the todolist on here can see it on the gamemode itself.
+- Added Special Thanks tab so all my little helpers can be a part of this gamemode in a way <3
+- Added a table that have the following variables: Name, TeamNumber, Kills, Deaths
+- Added Team Admin
+
+[*]Changelog: 1.0.5 Alpha - 1/2/13
+- Updated the table list from Name, TeamNumber, Kills, Deaths  ->  Name, Team, Kills, Deaths
+- Added the ability to use voice chat
+- Added team scoring (This is buggy, and currently not working very well. I'll get it fixed soon enough.)
+- Updated all the files and folder, so the code is more clear to myself, and other developers.
+
+[*]Changelog: 1.0.6 Alpha - 1/5/13
+- Added Hit Markers, made by Nate - [url=http://steamcommunity.com/sharedfiles/filedetails/?id=110871780]> Click Here for his Addon <[/url]
+
+[*]Changelog: 1.0.7 Alpha - 1/13/13
+- Removed "maps" "^gm_" from the gamemode.txt so you can still see sanbox maps.
+- Added Aegis as a Co Developer of this gamemode.
+
+[*]Changelog: 1.0.8 Alpha - 1/14/13
+- [strike]Temporarily[/strike] Removed utime. [strike]till bugs have been fixed[/strike]
+
+[*]Changelog: 1.0.9 Alpha - 1/15/13
+- Added a new tab called "extras"
+- Added the ability to activate/deactivate friendly fire. (kinda glitchy)
+- Added the ability to toggle Hitmarkers in tab Extra
+- Added the ability to press F2 to open the menu, instead of saying !teams.
+- Updated all the folders so there much more sexier ;p
+- Added the specific prefix to all VBTDM maps, "vbtdm_", you don't have to only use vbtdm maps though, you can use gm_ and rp_
+- Added a map for the gamemode, vbtdm_boxxy
+- Added the ability to have more fun :p
+
+[*]Changelog: 1.1.0 Beta (yay!) - 1/16/13
+- Created a new scoreboard, and it's epic!
+
+[*]Changelog: 1.1.1 Beta - 1/21/13
+- Updated scoreboard colours.
+- Updated Friendly Fire buttons so they are less glitchy
+- Added a custom made HUD made by Aegis
+- Removed Police and Criminal Team
+- Added Blue, Red, Green, Cyan, Purple, and Orange Team
+- Added the ability to create bots (to remove them, restart the server or singleplayer)
+- Added it so the Teams menu comes up at every time you join the server
+- Added a first time join menu song thing
+
+[*]Changelog: 1.1.2 Beta - 1/28/13
+- Updated the HUD a little more to make it better
+- Added the Admin Team button
+- Added the physgun as a weapon to the Admin team.
+- Added something else, but I can't remember what I did... oh well.
+
+[*]Changelog: 1.1.3 Beta - 2/21/13
+- Added teamscoring in the HUD
+- Updated the HUD to make it sexier and much better
+- Updated the !teams menu tab from buttons to a list!
+
+[*]Changelog: 1.1.4 Official Release - Every version after this will be considered "builds" - 2/24/13
+- Added camera's to guest for any which reason they would want to use it instead of playing
+- Added ammo drops so when a player dies the ammo of the weapon they had will drop
+- Added the ability to reset all scores (Admin only)
+- Added the ability to start with armor for all teams (admin only) [default is on]
+
+[*]Changelog: 1.1.5 Official Release - 4/10/13
+- Removed Ammo Drop (I hate how they turned out tbh :( )
+
+[*]Changelog: 1.1.6 Official Release - 4/18/13
+- Added set spawns for teams
+- Added score limit goal
+- Added file keeping, so when you make changes to goal, armor, or friendly fire it saves it so you don't have to deal with it every time the server restarts
+- Updated weapon system, now it's a little easier to make weapons
+- New Commands Added:
+!setspawn TEAM_NAME TEAM_SPAWN_ID
+!removespawn TEAM_NAME TEAM_SPAWN_ID
+!reloadspawn
+
+[*]Changelog: 1.1.7 Official Release - 4/27/13
+- Added leaderboards, type !lbs or !leaderbaords to see the stats
+- Added rank, type !rank to see what rank you are in the leaderbaords
+- Removed Color Teams, and added US-Army, and Wehrmacht
+- Added ReadMe file in the gamemode folder
+
+[*]Changelog: 1.1.8 Official Release - 5/5/13
+- Fixed some minor bugs causing some players to start out with godmode still
+
+[*]Changelog: 1.1.9 Official Release - **/**/**
+- A spacer, nothing was really updated.
+
+[*]Changelog: 1.2.0 Official Release - 8/15/13
+- Completely changed the weapon system. Now there are classes
+- Add classes
+- Updated Readme
+- Changed the spawn point system
+[/list]
+
+
+[B]Bugs:[/B]
+[code]
+Bugs from 1.0.5
+- [strike]The team scoring is currently bugged. It doesn't give an error, but it just doesn't work properly, or doesn't work at all.[/strike] - Fixed
+
+Bugs from 1.2
+- [strike]The materials/icons to the scoreboard may be missing, be fixed next update.[/strike] - Fixed
+[/code]
+
+[B]Other Addons Being Used[/B]
+[code]
+- Hit Markers by Nate - [url=http://steamcommunity.com/sharedfiles/filedetails/?id=110871780]> Click Here for his Addon <[/url]
+[/code]
+
+[B]To-Do-List[/B]
+[code]
+- [strike]Fix the team scoring system.[/strike] - Done
+- Fix flashlights.
+- [strike]Add a default score limit that can be changed by admins.[/strike] - Le Done
+- [strike]Make it easy to add custom weapons.[/strike] Done
+- Allow the ability for admins to use the spawn menu.
+- Create a system that every kill you get an amount of points and you can spend those points on buying weapons.
+- [strike]Allow players to create there own team with there own colours.[/strike] - Was canceled
+[/code]
+
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.
+To view a copy of this license, visit [url=http://creativecommons.org/licenses/by-nc-sa/3.0/]creativecommons.org[/url] or send a letter to
+Creative Commons
+543 Howard Street
+5th Floor
+San Francisco, California 94105
+USA"
+}
