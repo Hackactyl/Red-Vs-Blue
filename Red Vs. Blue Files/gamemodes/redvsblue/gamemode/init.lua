@@ -6,7 +6,7 @@ include( 'shared.lua' )
 function GM:PlayerSpawn( ply )
     self.BaseClass:PlayerSpawn( ply )   
  
-    ply:SetGravity  ( .75 )  
+    ply:SetGravity  ( .65 )  
     ply:SetMaxHealth( 100, true )  
  
     ply:SetWalkSpeed( 325 )  
@@ -32,29 +32,21 @@ function GM:PlayerLoadout( ply )
 		ply:SetModel( "models/player/masterchiefh2_blue.mdl" )
 	end
 	
+	if ply:Team() == 2 then
+		ply:Give( "weapon_ttt_ma5b" )
+		ply:Give( "weapon_ttt_halosword" )
+		ply:Give( "weapon_ttt_m6d" )
+		ply:SetModel( "models/peterboi/masterchief" )
+	end
 	
 end
 
 function GM:PlayerInitialSpawn( ply )
 	   ply:PrintMessage( HUD_PRINTTALK, "Welcome to Red Vs. Blue, Spartan " .. ply:Name() .. "!" )
-	   ply:SetTeam( 1 )
+	   ply:SetTeam( 3 )
 	   ply:ConCommand( "team_menu" )
 end
 
-function red( ply )
- 
-    ply:SetTeam( 1 )
- 
-end
- 
-function blue( ply )
- 
-    ply:SetTeam( 2 )
-	
-end
- 
-concommand.Add( "red", red )
-concommand.Add( "blue", blue )
 concommand.Add( "team_menu", set_team )
 
 function GM:CheckRoundEnd()
