@@ -32,6 +32,7 @@ function GM:PlayerLoadout( ply )
 		ply:SetModel( "models/player/masterchiefh2_blue.mdl" )
 	end
 	
+	
 end
 
 function GM:PlayerInitialSpawn( ply )
