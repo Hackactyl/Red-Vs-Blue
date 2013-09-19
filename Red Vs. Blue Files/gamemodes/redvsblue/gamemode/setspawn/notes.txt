@@ -1,0 +1,1 @@
+read the very basic tdm code for this (in playerspawns folder of gamemode folder). this will allow superadmins to set spawns, so that teams don't spawn randomly. would be nice in special occassions.

@@ -1,0 +1,2 @@
+sv_melee and cl_halohud will be experimental. The halo hud will the cooler looking, halo-esque hud done after normal one works. melee should be much simpler, as it will be simply a l4d2 style melee limiter, so peeps don't spam melee. it will also draw the little indicator. 
+*remove melee from halo weapons as all have a melee as secondary. gonna have to leave them w/o secondary, except for pistol and sniper which should have their own scope.

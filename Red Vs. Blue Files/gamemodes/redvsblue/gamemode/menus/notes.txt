@@ -1,0 +1,3 @@
+move the team switcher here, and add other functions, maybe if at all possible integrate the pointshop code and have a armor selector. 
+*will need models for that. get rest working then ask aaron if ok to add models to server.
+*for team switcher, if you make it before i do, leave make it in a way that allows me to just add some code that will be if ply:steamid = blah then team = blah. this is so people who play a lot can be added manually.
